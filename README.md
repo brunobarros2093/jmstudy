@@ -11,8 +11,8 @@ Ex: how e-mail works
 
 - Pub/Sub
 
-Producer: Cliente 
-Topic: JMS Provider 
+Producer: Cliente envia msg para o topico 
+Topic: JMS Provider (garante que todos os inscritos vão receber)
 Subscriber: Pode ser mais de um a se 'inscrever' no Topico
 
 ![pub/sub model](image-1.png)

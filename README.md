@@ -1,6 +1,9 @@
 # JMS  
 
-Como provider para o JMS utilizarei o Apache ACtiveMQ Artemis
+Como provider para o JMS utilizarei o Apache ACtiveMQ Artemis, que implementa a especificação da JMS.
+
+
+![apache activemq](image-2.png)
 
 - Point to Point 
 

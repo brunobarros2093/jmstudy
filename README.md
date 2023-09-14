@@ -5,6 +5,12 @@ Como provider para o JMS utilizarei o Apache ACtiveMQ Artemis, que implementa a 
 
 ![apache activemq](image-2.png)
 
+Messaging Types:
+
+Queue: P2P
+Topic: Pub/Sub 
+
+
 - Point to Point 
 
 Produce: Async fire and forget 

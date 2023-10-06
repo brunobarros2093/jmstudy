@@ -11,6 +11,7 @@ Queue: P2P
 Topic: Pub/Sub 
 
 
+
 - Point to Point 
 
 Produce: Async fire and forget 

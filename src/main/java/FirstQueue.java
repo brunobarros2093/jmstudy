@@ -14,11 +14,6 @@ public class FirstQueue {
         InitialContext initialContext = null;
         Connection connection = null;
         try {
-            // Fix: Cannot specify destination if producer has a default destination
-            // https://stackoverflow.com/questions/10599812/cannot-specify-destination-if-producer-has-a-default-destination
-
-
-
             initialContext = new InitialContext();
             ConnectionFactory cf = (ConnectionFactory) initialContext.lookup("ConnectionFactory");
              connection = cf.createConnection();
